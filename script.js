@@ -122,7 +122,7 @@ function clearError(inputId, errorId) {
 
 // ========== GOOGLE SHEETS CONNECTION ==========
 // TODO: O'zingizning Google Apps Script URL'ingizni shu yerga qo'ying
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxyGC51_ArMe2G3vl379NV2h-Pi-yF8w9C8HcnqShYleWljTXG4NBNWFxfinPwnAw-NHQ/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxnBDISVSFk1KEiw_R7IpgOsdwv11Ujix34TUK6qMs0yyB83pehuYpBiCAuIxw5Jn2LeQ/exec';
 
 async function saveLead(data) {
   try {
