@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toshkent Xalqaro Universiteti — 2026 Qabul</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ====== NAVBAR ====== -->
+<nav class="navbar" id="navbar">
+  <a href="#" class="nav-logo">
+    <img src="images/logo.png" alt="TIU Logo" class="nav-logo-img">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#why">Afzalliklar</a></li>
+    <li><a href="#tour">3D Tour</a></li>
+    <li><a href="#faq">Savollar</a></li>
+    <li><a href="tel:+998951315555" class="nav-phone">+998 95 131-55-55</a></li>
+    <li><a href="#form" class="nav-cta">Ariza topshirish</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ====== HERO + LEAD FORM ====== -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="images/bg.jpg" alt="" class="hero-bg-img">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge">
+        <div class="hero-badge-dot"></div>
+        <span>2026/27- o'quv yili uchun qabul ochiq</span>
+      </div>
+      <h1 class="hero-title">
+        Talaba bo'lish vaqti keldi
+      </h1>
+      <p class="hero-subtitle">
+        Bilim va imkoniyatlar birlashgan maskan
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">2+</div>
+          <div class="hero-stat-label">Fakultet</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">17+</div>
+          <div class="hero-stat-label">Ta'lim yo'nalishlar</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">60+</div>
+          <div class="hero-stat-label">Hamkor universitetlar</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEAD FORM -->
+    <div class="hero-form-card" id="form">
+      <div class="form-header">
+        <h3>Bog'lanish uchun raqamingizni qoldiring</h3>
+      </div>
+      <form id="leadForm" novalidate>
+        <!-- Honeypot - botlar uchun tuzoq (ko'rinmas) -->
+        <input type="text" name="website" id="website" style="position:absolute;left:-9999px;opacity:0;" tabindex="-1" autocomplete="off">
+
+        <div class="form-group">
+          <label>Ism-familiyangiz <span class="required">*</span></label>
+          <input type="text" id="fullName" name="fullName" placeholder="M-n: Alisher Karimov" required minlength="3">
+          <span class="error-message" id="nameError"></span>
+        </div>
+        <div class="form-group">
+          <label>Telefon raqam <span class="required">*</span></label>
+          <input type="tel" id="phone" name="phone" placeholder="+998 90 123 45 67" required>
+          <span class="error-message" id="phoneError"></span>
+        </div>
+        <button type="submit" class="form-submit">Yuborish</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ====== WHY US ====== -->
+<section class="section why-section section-center" id="why">
+  <div class="reveal">
+    <h2 class="section-title">Nega aynan TIU</h2>
+    <p class="section-subtitle">Biz talabalarimizga nafaqat bilim, balki kelajak uchun imkoniyatlar yaratamiz</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-card reveal reveal-delay-1">
+      <h3>2-bosqichdan mutaxassislik</h3>
+      <p>Birinchi kursdan keyin o'zingizga mos yo'nalishni tanlash imkoniyati. Kasbiy maqsadlaringizga qarab qaror qabul qiling.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-2">
+      <h3>100% gacha grant</h3>
+      <p>Iqtidorli abituriyentlar uchun to'liq grant imkoniyati. O'qish xarajatlarini biz qoplaymiz.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-3">
+      <h3>4 yilda 2 ta mutaxassislik</h3>
+      <p>Bir vaqtning o'zida ikki yo'nalishda diplom oling. Mehnat bozorida raqobatbardoshligingizni oshiring.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-4">
+      <h3>1.5 yilda magistratura</h3>
+      <p>Tezlashtirilgan magistratura dasturi. Vaqtingizni tejab, karyerangizni tezroq boshlang.</p>
+    </div>
+    <div class="why-card reveal reveal-delay-5">
+      <h3>Xorijda o'qishni davom ettirish</h3>
+      <p>Nufuzli xorijiy OTMlarda o'qishni davom ettirish imkoniyati. Xalqaro diplom va tajriba orttiring.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====== 3D TOUR ====== -->
+<section class="tour-section" id="tour">
+  <div class="tour-image">
+    <img src="images/3d2.jpg" alt="TIU Campus" class="tour-img">
+  </div>
+  <div class="tour-content">
+    <div class="tour-accent"></div>
+    <h2 class="tour-title">Kampusimizni Virtual Sayohat Qiling</h2>
+    <p class="tour-text">
+      Zamonaviy <strong>3D virtual tur</strong> orqali TIU kampusini uyingizdan turib kashf eting.
+      Zamonaviy o'quv binolari, jihozlangan laboratoriyalar, kutubxona, sport zallari va dam olish hududlarini ko'ring.
+      Kelajakdagi o'quv muhitingiz bilan tanishing — bir necha klik orqali!
+    </p>
+    <div class="tour-buttons">
+      <a href="#" class="tour-btn tour-btn-secondary">3D Tur ko'rish</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FAQ ====== -->
+<section class="section faq-section section-center" id="faq">
+  <div class="reveal">
+    <h2 class="section-title">FAQ</h2>
+    <p class="section-subtitle">Abiturientlar eng ko'p beradigan savollar va ularning javoblari</p>
+  </div>
+  <div class="faq-grid">
+    <div class="faq-item reveal reveal-delay-1">
+      <button class="faq-question">
+        <span>Qabul uchun imtihon topshirish kerakmi?</span>
+        <div class="faq-icon">+</div>
+      </button>
+      <div class="faq-answer">
+        <p>Ha, qabul jarayonida kirish imtihoni o'tkaziladi. Imtihon yo'nalishga qarab farq qiladi.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal reveal-delay-2">
+      <button class="faq-question">
+        <span>Grant va stipendiyalar mavjudmi?</span>
+        <div class="faq-icon">+</div>
+      </button>
+      <div class="faq-answer">
+        <p>Ha, iqtidorli abiturientlar uchun to'liq va qisman grantlar mavjud. Akademik ko'rsatkichlar va ijtimoiy faollikka asoslanib grantlar taqsimlanadi.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal reveal-delay-3">
+      <button class="faq-question">
+        <span>Qabul muddati qachon tugaydi?</span>
+        <div class="faq-icon">+</div>
+      </button>
+      <div class="faq-answer">
+        <p>2026/27- o'quv yili uchun qabuli hozir ochiq. Aniq muddatlar bo'yicha qabul bo'limi bilan bog'laning: +998 95 131-55-55.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal reveal-delay-4">
+      <button class="faq-question">
+        <span>Chet el fuqarolari qabul qilinadimi?</span>
+        <div class="faq-icon">+</div>
+      </button>
+      <div class="faq-answer">
+        <p>Ha, universitetimiz xorijiy fuqarolarni ham qabul qiladi. Maxsus dasturlar va qo'llab-quvvatlash xizmatlari mavjud. Viza va hujjatlashtirish bo'yicha yordam beramiz.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal reveal-delay-5">
+      <button class="faq-question">
+        <span>Ta'lim qaysi tillarda olib boriladi?</span>
+        <div class="faq-icon">+</div>
+      </button>
+      <div class="faq-answer">
+        <p>Ta'lim asosan o'zbek, rus va ingliz tillarida olib boriladi.</p>
+      </div>
+    </div>
+    <div class="faq-item reveal reveal-delay-5">
+      <button class="faq-question">
+        <span>Yotoqxona mavjudmi?</span>
+        <div class="faq-icon">+</div>
+      </button>
+      <div class="faq-answer">
+        <p>Ha, universitetimizda zamonaviy yotoqxona mavjud. Joylar cheklangan bo'lgani uchun erta murojaat qilish tavsiya etiladi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="TIU Logo" class="footer-logo-img">
+      </div>
+      <p class="footer-copy">2026 Tashkent International University. Barcha huquqlar himoyalangan.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.tiu.uz" target="_blank">Rasmiy sayt</a>
+      <a href="https://instagram.com/tiuofficial" target="_blank">Instagram</a>
+      <a href="https://t.me/tiu_edu">Telegram</a>
+      <a href="privacy.html">Maxfiylik siyosati</a>
+    </div>
+    <div class="footer-contact">
+      <a href="tel:+998951315555">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +998 95 131-55-55
+      </a>
+      <a href="mailto:info@tiu.uz">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        info@tiu.uz
+      </a>
+      <a href="#">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        Little Ring ko'chasi, Toshkent 100049
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- ====== SUCCESS MODAL ====== -->
+<div id="successModal" class="success-modal">
+  <div class="success-modal-content">
+    <div class="success-check">&#10003;</div>
+    <h3>Arizangiz qabul qilindi!</h3>
+    <p>Mutaxassisimiz tez orada siz bilan bog'lanadi. Qo'ng'iroqni kuting!</p>
+    <button id="modalClose" class="modal-close-btn">Tushunarli</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
